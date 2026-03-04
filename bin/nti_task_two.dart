@@ -25,5 +25,8 @@ void main(List<String> arguments) {
   // problems.multiplicationTableForNumber(2);
 
   ///Q8- Print List
-  problems.printList([100, 2, 10, 3, 9, 15, 4, 5]);
+  // problems.printList([100, 2, 10, 3, 9, 15, 4, 5]);
+
+  ///Q9- Sum Numbers In List
+  problems.sumNumbersInList([1, 2, 3, 4, 5, 6,7]);
 }

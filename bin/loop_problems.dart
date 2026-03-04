@@ -70,4 +70,13 @@ class LoopProblems {
       print(list[i]);
     }
   }
+
+  ///Q9- Sum Numbers In List
+  void sumNumbersInList(List<int> numbers) {
+    int sum = 0;
+    for (int i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+    print("Sum Of Numbers In List = $sum");
+  }
 }
