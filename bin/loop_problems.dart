@@ -34,4 +34,26 @@ class LoopProblems {
     }
     print("$base^$power = $result");
   }
+
+  ///Q5- Find Max Number In List
+  void findMaxNumberInList(List<int> numbers) {
+    int maxNumber = numbers[0];
+    for (int i = 0; i < numbers.length; i++) {
+      if (numbers[i] > maxNumber) {
+        maxNumber = numbers[i];
+      }
+    }
+    print("Max Number in List = $maxNumber");
+  }
+
+  ///Q6- Find Min Number In List
+  void findMinNumberInList(List<int> numbers) {
+    int minNumber = numbers[0];
+    for (int i = 0; i < numbers.length; i++) {
+      if (numbers[i] < minNumber) {
+        minNumber = numbers[i];
+      }
+    }
+    print("Min Number in List = $minNumber");
+  }
 }

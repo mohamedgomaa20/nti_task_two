@@ -13,5 +13,11 @@ void main(List<String> arguments) {
   // problems.factorial(5);
 
   ///Q4- Power of Number
-  problems.power(3, 3);
+  // problems.power(3, 3);
+
+  ///Q5- Find Max Number In List
+  // problems.findMaxNumberInList([100, 2, 10, 3, 9, 15, 4, 5]);
+
+  ///Q6- Find Max Number In List
+  problems.findMinNumberInList([100, 2, 10, 3, 9, 15, 4, 5]);
 }
