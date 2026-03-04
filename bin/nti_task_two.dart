@@ -31,5 +31,8 @@ void main(List<String> arguments) {
   // problems.sumNumbersInList([1, 2, 3, 4, 5, 6, 7]);
 
   ///Q10- Average Of Numbers In List
-  problems.averageOfNumbersInList([1, 2, 3, 4, 5, 6, 7]);
+  // problems.averageOfNumbersInList([1, 2, 3, 4, 5, 6, 7]);
+
+  ///Q11- Find Number In List
+  problems.findNumberInList([1, 2, 3, 4, 5, 6, 7], 10);
 }

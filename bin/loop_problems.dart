@@ -89,4 +89,21 @@ class LoopProblems {
     double average = sum / numbers.length;
     print("Average Of Numbers In List = $sum / ${numbers.length} = $average");
   }
+
+  ///Q11- Find Number In List
+  void findNumberInList(List<int> numbers, int number) {
+    bool found = false;
+    for (int i = 0; i < numbers.length; i++) {
+      if (numbers[i] == number) {
+        found = true;
+        break;
+      }
+    }
+    if (found) {
+      print("Number Found In List");
+    } else {
+      print("Number Not Found In List");
+    }
+  }
+
 }
