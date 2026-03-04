@@ -34,5 +34,11 @@ void main(List<String> arguments) {
   // problems.averageOfNumbersInList([1, 2, 3, 4, 5, 6, 7]);
 
   ///Q11- Find Number In List
-  problems.findNumberInList([1, 2, 3, 4, 5, 6, 7], 10);
+  // problems.findNumberInList([1, 2, 3, 4, 5, 6, 7], 10);
+
+  ///Q12- Print Numbers In Range
+  // problems.printNumbersInRange(5, 15);
+
+  ///Q13- Print Reverse List
+  problems.printReverseList([1, 2, 3, 4, 5, 6, 7]);
 }

@@ -106,4 +106,17 @@ class LoopProblems {
     }
   }
 
+  ///Q12- Print Numbers In Range
+  void printNumbersInRange(int start, int end) {
+    for (int i = start; i <= end; i++) {
+      print(i);
+    }
+  }
+
+  ///Q13- Print Reverse List
+  void printReverseList(List<dynamic> list) {
+    for (int i = list.length-1; i >= 0; i--) {
+      print(list[i]);
+    }
+  }
 }
