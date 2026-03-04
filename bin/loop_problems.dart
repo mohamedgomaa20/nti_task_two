@@ -79,4 +79,14 @@ class LoopProblems {
     }
     print("Sum Of Numbers In List = $sum");
   }
+
+  ///Q10- Average Of Numbers In List
+  void averageOfNumbersInList(List<int> numbers) {
+    int sum = 0;
+    for (int i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+    double average = sum / numbers.length;
+    print("Average Of Numbers In List = $sum / ${numbers.length} = $average");
+  }
 }
