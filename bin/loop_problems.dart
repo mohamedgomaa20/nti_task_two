@@ -16,4 +16,13 @@ class LoopProblems {
       }
     }
   }
+
+  ///Q3- Factorial of Number
+  void factorial(int number) {
+    int fact = 1;
+    for (int i = 1; i <= number; i++) {
+      fact *= i;
+    }
+    print("Factorial For $number = $fact");
+  }
 }

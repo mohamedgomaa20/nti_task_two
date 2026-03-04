@@ -4,8 +4,11 @@ void main(List<String> arguments) {
   LoopProblems problems = LoopProblems();
 
   ///Q1- Print Even Numbers
-  problems.printEvenNumbers(10);
+  // problems.printEvenNumbers(10);
 
-  ///Q1- Print Odd Numbers
-  problems.printOddNumbers(10);
+  ///Q2- Print Odd Numbers
+  // problems.printOddNumbers(10);
+
+  ///Q3- Factorial of Number
+  problems.factorial(5);
 }
