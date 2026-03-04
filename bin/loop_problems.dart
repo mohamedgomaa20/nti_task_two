@@ -56,4 +56,18 @@ class LoopProblems {
     }
     print("Min Number in List = $minNumber");
   }
+
+  ///Q7- Multiplication Table For Number
+  void multiplicationTableForNumber(int number) {
+    for (int i = 1; i <= 12; i++) {
+      print("$number * $i = ${number * i}");
+    }
+  }
+
+  ///Q8- Print List
+  void printList(List<dynamic> list) {
+    for (int i = 0; i < list.length; i++) {
+      print(list[i]);
+    }
+  }
 }

@@ -19,5 +19,11 @@ void main(List<String> arguments) {
   // problems.findMaxNumberInList([100, 2, 10, 3, 9, 15, 4, 5]);
 
   ///Q6- Find Max Number In List
-  problems.findMinNumberInList([100, 2, 10, 3, 9, 15, 4, 5]);
+  // problems.findMinNumberInList([100, 2, 10, 3, 9, 15, 4, 5]);
+
+  ///Q7- Multiplication Table For Number
+  // problems.multiplicationTableForNumber(2);
+
+  ///Q8- Print List
+  problems.printList([100, 2, 10, 3, 9, 15, 4, 5]);
 }
