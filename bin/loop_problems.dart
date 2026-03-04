@@ -25,4 +25,13 @@ class LoopProblems {
     }
     print("Factorial For $number = $fact");
   }
+
+  ///Q4- Power of Number
+  void power(int base, int power) {
+    int result = 1;
+    for (int i = 1; i <= power; i++) {
+      result *= base;
+    }
+    print("$base^$power = $result");
+  }
 }
